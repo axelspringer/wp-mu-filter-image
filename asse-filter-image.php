@@ -151,7 +151,10 @@ function processAttachmentMetadata($attachmentMetadata, $attachmentId)
 
     return $attachmentMetadata;
 }
-add_filter('wp_generate_attachment_metadata', 'processAttachmentMetadata', 10, 2);
+// quick fix
+if ( ! defined( 'WP_CLI') && ! class_exists( 'WP_CLI' ) ) {
+    add_filter('wp_generate_attachment_metadata', 'processAttachmentMetadata', 10, 2);
+}
 
 /**
  * Return jpeg quality set by parameters.yml constant
