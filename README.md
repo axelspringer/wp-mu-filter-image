@@ -1,0 +1,1 @@
+# wp-mu-filter-image
