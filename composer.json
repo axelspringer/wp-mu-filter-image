@@ -1,20 +1,24 @@
 {
-    "name": "muplugin/asse-filter-image",
-    "type": "wordpress-muplugin",
-    "description": "asse filter image",
-    "keywords": [
-        "wordpress",
-        "muplugin"
-    ],
-    "authors": [
-        {
-            "name": "Developer",
-            "homepage": "http://www.axelspringer.de"
-        }
-    ],
-    "homepage": "https://as-stash.axelspringer.de/projects/WPMUP/repos/asse-filter-image/browse",
-    "license": "proprietary",
-    "extra": {
-        "installer-name": "asse-filter-image"
+  "name": "axelspringer/wp-mu-filter-image",
+  "type": "wordpress-muplugin",
+  "description": "axelspringer filter image",
+  "keywords": [
+    "wordpress",
+    "muplugin"
+  ],
+  "authors": [
+    {
+      "name": "Developer",
+      "homepage": "http://www.axelspringer.de"
+    },
+    {
+      "name": "Mathias Witt",
+      "homepage": "http://www.axelspringer.de"
     }
+  ],
+  "homepage": "https://github.com/axelspringer/asse-filter-image",
+  "license": "Apache-2.0",
+  "extra": {
+    "installer-name": "wp-mu-filter-image"
+  }
 }
